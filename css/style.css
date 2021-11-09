@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* grid setup */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100px auto 75px;
+    grid-gap: 10px;
+    
+    margin: 0rem 6rem;
+    height: 100vh;
+}
+
+.header,
+.footer {
+    grid-column: span 5 / auto;
+}
+
+.content {
+    grid-column: span 3 / auto;
+}
+
+/* grid setup END */
+
+body {
+    font-family: Roboto; 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+
+    background-color: #5485a0;
+}
+
+.header_logo {
+    height: 3rem;
+    margin: 1rem;
+}
+
+.header_content{
+    color: #ffffff;
+    margin: 1rem;
+    font-size: 14px;
+}
+
+.left-col { 
+    background: #B3A38B;
+}
+
+.content { 
+    background: #C4C4C4; 
+    padding: 3rem;
+}
+
+.rigth-col { 
+    background: #689333;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    height: 75px;
+
+    background-color: #8854A0;
+
+    color: #FFFFFF;
+    font-size: 14px;
+
+    padding: 0rem 1rem;
+}
+
+.content_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.375rem;
+}
+
+.content_text {
+    font-size: 14px;
+}
+
+
+
+/*
+.col1 { 
+    background: #B3A38B; 
+    width: 280px;
+    height: 800px;
+    left: 130px;
+    top: 123px;
+}
+.col2 { 
+    background: #C4C4C4; 
+    width: 580px;
+    height: 800px;
+    left: 430px;
+    top: 123px; 
+}
+
+.text1_col2{
+    color: #000000;
+    margin: 48px 40px 718px 37px;
+    font-family: Roboto;
+    font-weight: bold; 
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text2_col2{
+    color: #000000;
+    margin: 104px 40px 647px 35px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.col3 { 
+    background: #689333;
+    width: 280px;
+    height: 800px;
+    left: 1030px;
+    top: 123px;
+    }
+
+.footer{
+    position: absolute;
+    background-color: #8854a0;
+    width: 1180px;
+    height: 75px;
+    left: 130px;
+    top: 940px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer_content_left{
+    color: #ffffff;
+    text-align:left;
+    padding: 1.25rem;
+}
+
+.footer_content_right{
+    color: #ffffff;
+    text-align:right;
+}
+*/
